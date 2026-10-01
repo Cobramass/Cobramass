@@ -1,23 +1,22 @@
-### Matthew Daly — AI Automation & Integration Engineer
+### Matthew Daly: AI Automation Engineer
 
-I build the automation and AI plumbing businesses actually pay for — **MCP servers, AI agents
-(Claude/LLM), test automation, and data pipelines** — delivered as running, documented, tested repos.
-I work async and fixed-price: a clear written spec, a free sample before you commit, and a short
-Loom walkthrough instead of a call.
+I build AI automation that replaces a specific manual process: **custom MCP servers, sales and CRM
+automation, trading research tools, and Node.js / Next.js apps**. Async and fixed-price, with a
+proof-of-concept as a refundable first milestone.
 
-**What I build**
-- **MCP servers & AI agents** — Model Context Protocol servers and tool-using LLM/RAG agents that connect your tools to Claude
-- **Test automation** — Playwright E2E suites with CI and zero-flake green streaks
-- **Workflow & data automation** — web scraping / data feeds, Google Apps Script, scheduled pipelines
-
-**Public proof**
+**Public work samples**
 | Repo | What it shows |
 |---|---|
-| [mcp-subscription-insights](https://github.com/Cobramass/mcp-subscription-insights) | Production-shaped MCP server — workflow-shaped tools, held-out eval in CI, security-noted |
-| [playwright-e2e-demo](https://github.com/Cobramass/playwright-e2e-demo) | Page Object Model, role-based locators, zero-flake (10× green), sharded CI + HTML report |
-| [price-monitor-python](https://github.com/Cobramass/price-monitor-python) · [price-monitor-node](https://github.com/Cobramass/price-monitor-node) | Clean scrapers + price change-detection, CSV/JSON, tested in CI |
-| [sheets-sales-report-apps-script](https://github.com/Cobramass/sheets-sales-report-apps-script) | Google Apps Script automation — custom menu, resilient to client edits |
+| [mcp-subscription-insights](https://github.com/Cobramass/mcp-subscription-insights) | MCP server with workflow-shaped tools and an eval in CI (live client-server round-trip) |
+| [playwright-e2e-demo](https://github.com/Cobramass/playwright-e2e-demo) | Playwright E2E suite: page objects, role-based locators, sharded CI + published HTML report |
+| [price-monitor-node](https://github.com/Cobramass/price-monitor-node) · [price-monitor-python](https://github.com/Cobramass/price-monitor-python) (Python port, written with Claude Code) | Price monitors with change detection and CSV/JSON output |
+| [sheets-sales-report-apps-script](https://github.com/Cobramass/sheets-sales-report-apps-script) | Google Apps Script sales-report automation, resumable past the 6-minute limit |
 
-**Stack:** Node.js · Python · TypeScript · MCP · Playwright · Apps Script · LLM/RAG pipelines · proxies · clean JSON/CSV/Sheet/API delivery
+Built with Claude Code as an AI pair-programmer: I set the requirements and architecture, and review and
+test every module.
 
-📫 dalymatthew01@gmail.com
+**Stack:** Node.js · TypeScript · MCP · Claude Code · Next.js · SQLite · Playwright · LLM pipelines
+
+**Anthropic courses (Sep 2026):** Introduction to Model Context Protocol · Claude Code 101 · Claude Platform 101
+
+**Contact:** [Upwork](https://www.upwork.com/freelancers/~01207ccc7ad584a048)
